@@ -15,4 +15,14 @@ Changed and added new prompts.
 
 ---
 
-# Module 1:
+## Module 1:
+
+### Video 1: Motivation
+
+Learned that **Chains** are fixed control flows set by the developer, and an A**gent** controls the flow defined by an LLM. As more control is given to the agent, the application's reliabilty decreases. **LangGraph** is used to increase this reliability.
+
+*Changes made:*
+
+There wasn't any code so no changes had to be made.
+
+### Video 2: Simple Graph
