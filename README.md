@@ -79,8 +79,17 @@ Learnt how to make an LLM decide whether to invoke a **tools call** or not by in
 
 ![1760614891545](image/README/1760614891545.png)
 
-
 ![1760614995919](image/README/1760614995919.png)
 
-
 ### Video 6: Agent
+
+Created an **Agent** that can solve mathematical expressions. Previously the 'router node' either ended the program or gave a tools call, but now the tools call is given back to the router node(assistant) which might go back to the tools call and this process can go on in a loop until the the model produces a fit answer. This is the intuition behind **React** architecture.
+
+*Changes Made*:
+
+* Added more mathematical functions to **convert_to_binary()** , **calculate_twos_complement()** , **add_twos_complement_binaries()**, **convert_from_twos_complement()**.
+* Changed the **input** to include the added mathematical functions.
+
+![1760617695613](image/README/1760617695613.png)
+
+### Video 7: Agent with Memory
