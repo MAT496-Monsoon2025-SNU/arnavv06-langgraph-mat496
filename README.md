@@ -83,6 +83,8 @@ Learnt how to make an LLM decide whether to invoke a **tools call** or not by in
 
 ### Video 6: Agent
 
+[arnavv06-langgraph-mat496/notebooks/module-1/agent.ipynb at main · MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496](https://github.com/MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496/blob/main/notebooks/module-1/agent.ipynb)
+
 Created an **Agent** that can solve mathematical expressions. Previously the 'router node' either ended the program or gave a tools call, but now the tools call is given back to the router node(assistant) which might go back to the tools call and this process can go on in a loop until the the model produces a fit answer. This is the intuition behind **React** architecture.
 
 *Changes Made*:
@@ -93,3 +95,18 @@ Created an **Agent** that can solve mathematical expressions. Previously the 'ro
 ![1760617695613](image/README/1760617695613.png)
 
 ### Video 7: Agent with Memory
+
+[arnavv06-langgraph-mat496/notebooks/module-1/agent-memory.ipynb at main · MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496](https://github.com/MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496/blob/main/notebooks/module-1/agent-memory.ipynb)
+
+Learned how to add **Memory** to an Agent. It is done using **MemorySaver()** which can be used to set a **checkpoint**. The checkpoint preserves the state of the graph at a particular stage. A collection of such checkpoints is called thread. Using this, we can save the output from a previous call and use it as input for the next call.
+
+In Langsmith Studio, this happens by default using a persistence layer which provides memory to agent.
+
+*Changes Made:*
+
+* Added all the tools i had made previously and ran the agent with **memory** on those tools.
+* Edited the **agent.py** file to include the newly added tools.
+
+![1760619459539](image/README/1760619459539.png)
+
+---
