@@ -43,3 +43,15 @@ Learned how to create a graph using  **StateGraph()** which has a simple edge fr
 * Changed the branch function to decide which drink I like.
 
 ### Video 3: Langsmith Studio
+
+Learned to visualise graphs as flowcharts using **Langsmith Studio**. Previosly it was being shown in jupyter notebook.
+
+*Changes made:*
+
+Edited **simple.py** file according to the graph I constructed in previous notebook.
+
+
+![1760608678635](image/README/1760608678635.png)
+
+
+### Video 4: Chain
