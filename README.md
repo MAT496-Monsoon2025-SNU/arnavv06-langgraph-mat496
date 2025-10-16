@@ -4,7 +4,7 @@
 
 ## Module 0:
 
-[arnavv06-langgraph-mat496/module-0 at main · MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496](https://github.com/MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496/tree/main/module-0)
+[arnavv06-langgraph-mat496/notebooks/module-0 at main · MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496](https://github.com/MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496/tree/main/notebooks/module-0)
 
 There wasn't much to learn as everything had been covered before.
 
@@ -18,7 +18,7 @@ Changed and added new prompts.
 
 ## Module 1:
 
-[arnavv06-langgraph-mat496/module-1 at main · MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496](https://github.com/MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496/tree/main/module-1)
+[arnavv06-langgraph-mat496/notebooks/module-1 at main · MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496](https://github.com/MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496/tree/main/notebooks/module-1)
 
 ### Video 1: Motivation
 
@@ -30,7 +30,7 @@ There wasn't any code so no changes had to be made.
 
 ### Video 2: Simple Graph
 
-[arnavv06-langgraph-mat496/module-1/simple-graph.ipynb at main · MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496](https://github.com/MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496/blob/main/module-1/simple-graph.ipynb)
+[arnavv06-langgraph-mat496/notebooks/module-1/simple-graph.ipynb at main · MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496](https://github.com/MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496/blob/main/notebooks/module-1/simple-graph.ipynb)
 
 Learned a very simple **graph** structure consisting of **nodes** and simple/conditional **branches**. Created one function to define "node" and one for "branch"
 
@@ -66,3 +66,21 @@ I also learned how to implemented the same thing as a **chain** using a graph. A
 * Created my own translational tool and replaced it in the code with the given one.
 
 ### Video 5: Router
+
+[arnavv06-langgraph-mat496/notebooks/module-1/router.ipynb at main · MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496](https://github.com/MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496/blob/main/notebooks/module-1/router.ipynb)
+
+Learnt how to make an LLM decide whether to invoke a **tools call** or not by interpreting the input. This works kind of like a **router**. A tool call is generated only if a question requiring that is asked, otherwise the LLM reponds by itself. Verified the same on Langsmith Studio.
+
+*Changes made:*
+
+* Edited code to include the **translational tool** created previosly.
+* Edited **router.py** file to inlcude the translational tool
+* Gave different inputs in **Langsmith Studio**
+
+![1760614891545](image/README/1760614891545.png)
+
+
+![1760614995919](image/README/1760614995919.png)
+
+
+### Video 6: Agent
