@@ -50,8 +50,19 @@ Learned to visualise graphs as flowcharts using **Langsmith Studio**. Previosly 
 
 Edited **simple.py** file according to the graph I constructed in previous notebook.
 
-
 ![1760608678635](image/README/1760608678635.png)
 
-
 ### Video 4: Chain
+
+[arnavv06-langgraph-mat496/notebooks/module-1/chain.ipynb at main · MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496](https://github.com/MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496/blob/main/notebooks/module-1/chain.ipynb)
+
+Initially learned how to use messages as inputs to chat models, bind tools to them and get tool calls output.
+
+I also learned how to implemented the same thing as a **chain** using a graph. A list of messages and a tool is first created, which are then put together in a graph as nodes and connected through edges. This comprises a chain.
+
+*Changes made*:
+
+* Changed messages to ask about some exercises.
+* Created my own translational tool and replaced it in the code with the given one.
+
+### Video 5: Router
