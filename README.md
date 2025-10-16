@@ -85,7 +85,7 @@ Learnt how to make an LLM decide whether to invoke a **tools call** or not by in
 
 [arnavv06-langgraph-mat496/notebooks/module-1/agent.ipynb at main · MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496](https://github.com/MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496/blob/main/notebooks/module-1/agent.ipynb)
 
-Created an **Agent** that can solve mathematical expressions. Previously the 'router node' either ended the program or gave a tools call, but now the tools call is given back to the router node(assistant) which might go back to the tools call and this process can go on in a loop until the the model produces a fit answer. This is the intuition behind **React** architecture.
+Created an **Agent** that can solve mathematical expressions. Previously the 'router node' either ended the program or gave a tools call, but now the tools call is given back to the router node(assistant) which might go back to the tools call and this process can go on in a loop until the model produces a fit answer. This is the intuition behind **React** architecture.
 
 *Changes Made*:
 
