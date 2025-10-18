@@ -110,3 +110,21 @@ In Langsmith Studio, this happens by default using a persistence layer which pro
 ![1760619459539](image/README/1760619459539.png)
 
 ---
+
+## Module 2: State and Memory
+
+[arnavv06-langgraph-mat496/notebooks/module-2 at main · MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496](https://github.com/MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496/tree/main/notebooks/module-2)
+
+### Video 1: State Schema
+
+[arnavv06-langgraph-mat496/notebooks/module-2/state-schema.ipynb at main · MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496](https://github.com/MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496/blob/main/notebooks/module-2/state-schema.ipynb)
+
+Learned that the **schema**(structure and datatype used by graph) we established earlier using **TypeDict**, the type hints are not enforced at runtime and an invalid value could be assigned without raising an error. This happens with **DataClass** too which is also used to define structured data. Using **Pydantic** prevents this from happening and provides data validation.
+
+*Changes made:*
+
+* Changed and added graph nodes and branches functions built using TypeDict
+* Changed and added graph nodes and branches functions built using DataClass
+* Changed and added graph nodes and branches functions built using Pydantic
+
+### Video 2:
