@@ -127,4 +127,16 @@ Learned that the **schema**(structure and datatype used by graph) we established
 * Changed and added graph nodes and branches functions built using DataClass
 * Changed and added graph nodes and branches functions built using Pydantic
 
-### Video 2:
+### Video 2: State Reducers
+
+[arnavv06-langgraph-mat496/notebooks/module-2/state-reducers.ipynb at main · MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496](https://github.com/MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496/blob/main/notebooks/module-2/state-reducers.ipynb)
+
+I learned that when we invoke a graph by inputting a value of they, the defualt behaviour is to **overwrite** the value. This causes an error when two nodes are run in **parallel** as they try to overwrite within the same step of the graph. **Reducers** solve this problem by rather than overwriting the value returned by a node, the add it along with the initial value to a **list**.
+
+Also learned about **MessageState()** and different reducers provided by it.
+
+*Changes made:*
+
+* Changed the key from foo to **candy**, and its value from int to type **string**
+* Modified the graph to show the use of reducers using string
+* Changed **messages** to ask some geographical questions.
