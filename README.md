@@ -154,6 +154,8 @@ Learned about **Overall** and **Private** state. Private state lets different no
 
 ### Video 4: Trim and Filter Messages
 
+[arnavv06-langgraph-mat496/notebooks/module-2/trim-filter-messages.ipynb at main · MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496](https://github.com/MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496/blob/main/notebooks/module-2/trim-filter-messages.ipynb)
+
 Learned how to use **RemoveMessage** and **MessagesState()** to **filter, trim** and control the chat history with model. This helps in reducing **token usage**.                                      Observed in **Langsmith UI** that the LLM only takes in input the last message appended to messages list.
 
 *Changes Made:*
@@ -166,4 +168,4 @@ Learned how to use **RemoveMessage** and **MessagesState()** to **filter, trim**
 ![1761170714216](image/README/1761170714216.png)
 
 
-### Video 5:
+### Video 5: Chatbot w/ Summarizing Messages and Memory
