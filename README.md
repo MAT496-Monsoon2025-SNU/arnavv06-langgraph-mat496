@@ -140,3 +140,14 @@ Also learned about **MessageState()** and different reducers provided by it.
 * Changed the key from foo to **candy**, and its value from int to type **string**
 * Modified the graph to show the use of reducers using string
 * Changed **messages** to ask some geographical questions.
+
+### Video 3: Multiple Schemas
+
+[arnavv06-langgraph-mat496/notebooks/module-2/multiple-schemas.ipynb at main · MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496](https://github.com/MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496/blob/main/notebooks/module-2/multiple-schemas.ipynb)
+
+Learned about **Overall** and **Private** state. Private state lets different nodes of the graph to share information with each other without affecting the input or final output. Also learned how to define custom **Input/Output schema** because StateSchema() by default expects nodes to communicate using a single schema only. Using I/O schema, we can filter out on what is allowed in the input and output of the graph.
+
+*Changes made*:
+
+* Added a couple of more intermediate nodes in the graph
+* Changed how data is manipulated in return statements.
