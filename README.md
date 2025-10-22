@@ -151,3 +151,19 @@ Learned about **Overall** and **Private** state. Private state lets different no
 
 * Added a couple of more intermediate nodes in the graph
 * Changed how data is manipulated in return statements.
+
+### Video 4: Trim and Filter Messages
+
+Learned how to use **RemoveMessage** and **MessagesState()** to **filter, trim** and control the chat history with model. This helps in reducing **token usage**.                                      Observed in **Langsmith UI** that the LLM only takes in input the last message appended to messages list.
+
+*Changes Made:*
+
+* Changed the conversation and message list from ocean mammals to secrets of the **cosmos**.
+
+![1761170883123](image/README/1761170883123.png)
+
+
+![1761170714216](image/README/1761170714216.png)
+
+
+### Video 5:
