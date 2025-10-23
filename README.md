@@ -164,8 +164,23 @@ Learned how to use **RemoveMessage** and **MessagesState()** to **filter, trim**
 
 ![1761170883123](image/README/1761170883123.png)
 
-
 ![1761170714216](image/README/1761170714216.png)
 
-
 ### Video 5: Chatbot w/ Summarizing Messages and Memory
+
+[arnavv06-langgraph-mat496/notebooks/module-2/chatbot-summarization.ipynb at main · MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496](https://github.com/MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496/blob/main/notebooks/module-2/chatbot-summarization.ipynb)
+
+Learned how to build a chatmodel with memory that can **summarise** the conversation history with the user, which is a better way of preserving information compared to filtering and trimming. Set a **conditional edge** which decides when to produce a summary of the conversation.                                                                                     Verified in **Langsmith UI** that the most recent message passed was appended to a saved state, and summary was only produced when required.
+
+*Changes Made:*
+
+* Changed the conditions in conditional edge as to when to produce a summary.
+* Changed the topic of the conversation to Quantum Physics
+
+![1761233458674](image/README/1761233458674.png)
+
+
+![1761233498710](image/README/1761233498710.png)
+
+
+### Video 6: Chatbot w/ Summarizing Messages and External Memory
