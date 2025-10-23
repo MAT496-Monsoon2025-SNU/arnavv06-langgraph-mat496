@@ -179,8 +179,21 @@ Learned how to build a chatmodel with memory that can **summarise** the conversa
 
 ![1761233458674](image/README/1761233458674.png)
 
-
 ![1761233498710](image/README/1761233498710.png)
 
-
 ### Video 6: Chatbot w/ Summarizing Messages and External Memory
+
+[arnavv06-langgraph-mat496/notebooks/module-2/chatbot-external-memory.ipynb at main · MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496](https://github.com/MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496/blob/main/notebooks/module-2/chatbot-external-memory.ipynb)
+
+Upto now, the chatbot used an in memory checkpointer and lived throughout the lifetime of the notebook session. I learned how to use **SQlite**(a SQL DB) to implement and provide **external memory** to the chatbot. Observed that reloading the kernel retained the memory of the chatbot.
+
+*Changes Made:*
+
+* Changed the topic of the coversation to Newtonian Physics
+
+![1761237270240](image/README/1761237270240.png)
+
+
+![1761237379177](image/README/1761237379177.png)
+
+---
