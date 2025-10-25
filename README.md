@@ -16,7 +16,7 @@ Changed and added new prompts.
 
 ---
 
-## Module 1:
+## Module 1: Introduction
 
 [arnavv06-langgraph-mat496/notebooks/module-1 at main · MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496](https://github.com/MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496/tree/main/notebooks/module-1)
 
@@ -193,7 +193,31 @@ Upto now, the chatbot used an in memory checkpointer and lived throughout the li
 
 ![1761237270240](image/README/1761237270240.png)
 
-
 ![1761237379177](image/README/1761237379177.png)
 
 ---
+
+## Module 3: UX and Human-in-the-Loop
+
+[arnavv06-langgraph-mat496/notebooks/module-3 at main · MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496](https://github.com/MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496/tree/main/notebooks/module-3)
+
+### Video 1: Streaming
+
+[arnavv06-langgraph-mat496/notebooks/module-3/streaming-interruption.ipynb at main · MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496](https://github.com/MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496/blob/main/notebooks/module-3/streaming-interruption.ipynb)
+
+Learned that LangGraph s**treaming** provides real-time updates as our graphs runs. Different sreaming ways are:
+
+* **updates**: shows only the updates to the state after each node is called
+* **values**: shows the full state after each node is called
+
+Used **.astream_events** to stream tokens back from LLM. I also learned how to isolate and print the following keys of an event that come from a model:
+
+* **event**: type of event being emitted.
+* **name**: name of event.
+* **data**: data associated with the event.
+* **metadata**: has the node emitting the event(LangGraph_node)
+
+*Changes Made:*
+
+* Used **.astream_events** to stream tokens from **summarize_conversation** node also intead of just conversation node.
+* Changed and added conversations topics of my own.
