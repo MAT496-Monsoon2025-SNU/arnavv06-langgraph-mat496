@@ -236,12 +236,29 @@ Also learned how to use **graph.stream()** to re-run the graph from a saved chec
 
 *Changes Made:*
 
-* Added a **breakpoin**t to pause the graph before **assistant** node is called also.
-* Defined and added more **tools** to the tools list provided which was passed to assistant
+* Added a **breakpoin**t to pause the graph before **assistant** node is also called.
+* Defined and added more **tools** to the tools list provided which was passed to the chatmodel
 * Modified **agent.py** file to incorporate the changes made
 
 ![1761507939305](image/README/1761507939305.png)
 
 ![1761507947268](image/README/1761507947268.png)
 
-### Video 4: Editing State and Human Feedback
+
+### Video 3: Editing State and Human Feedback
+
+[arnavv06-langgraph-mat496/notebooks/module-3/edit-state-human-feedback.ipynb at main · MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496](https://github.com/MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496/blob/main/notebooks/module-3/edit-state-human-feedback.ipynb)
+
+Rather than just interrupting and awaiting user approval for the next node of graph, I learned to use breakpoints to **modify the state** of the graph. Played around in LangGraph UI to see how the workflow is implemented*.*
+
+*Changes Made:*
+
+* Added more tools to the tools list provided to the chat model
+* Changed the arithmetic expressions and operations inputted to the graph
+
+
+![1761511328781](image/README/1761511328781.png)
+
+![1761511342227](image/README/1761511342227.png)
+
+### Video 4: Dynamic Breakpoints
