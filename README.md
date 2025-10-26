@@ -221,3 +221,27 @@ Used **.astream_events** to stream tokens back from LLM. I also learned how to i
 
 * Used **.astream_events** to stream tokens from **summarize_conversation** node also intead of just conversation node.
 * Changed and added conversations topics of my own.
+
+### Video 2: Breakpoints
+
+[arnavv06-langgraph-mat496/notebooks/module-3/breakpoints.ipynb at main · MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496](https://github.com/MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496/blob/main/notebooks/module-3/breakpoints.ipynb)
+
+In this video I learned that **breakpoints** are used to implement **Human-in-the-Loop** by stopping the execution of the graph at one point until a human provides an input.         Use cases for human-in-the-loop:
+
+* **Approval:** approve steps by a human that an agent should take
+* **Debugging:** rewind the graph to reproduce or avoid issues
+* **Editing:** directly edit the state with human feedback
+
+Also learned how to use **graph.stream()** to re-run the graph from a saved checkpoint.
+
+*Changes Made:*
+
+* Added a **breakpoin**t to pause the graph before **assistant** node is called also.
+* Defined and added more **tools** to the tools list provided which was passed to assistant
+* Modified **agent.py** file to incorporate the changes made
+
+![1761507939305](image/README/1761507939305.png)
+
+![1761507947268](image/README/1761507947268.png)
+
+### Video 4: Editing State and Human Feedback
