@@ -244,7 +244,6 @@ Also learned how to use **graph.stream()** to re-run the graph from a saved chec
 
 ![1761507947268](image/README/1761507947268.png)
 
-
 ### Video 3: Editing State and Human Feedback
 
 [arnavv06-langgraph-mat496/notebooks/module-3/edit-state-human-feedback.ipynb at main · MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496](https://github.com/MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496/blob/main/notebooks/module-3/edit-state-human-feedback.ipynb)
@@ -256,9 +255,23 @@ Rather than just interrupting and awaiting user approval for the next node of gr
 * Added more tools to the tools list provided to the chat model
 * Changed the arithmetic expressions and operations inputted to the graph
 
-
 ![1761511328781](image/README/1761511328781.png)
 
 ![1761511342227](image/README/1761511342227.png)
 
 ### Video 4: Dynamic Breakpoints
+
+[arnavv06-langgraph-mat496/notebooks/module-3/dynamic-breakpoints.ipynb at main · MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496](https://github.com/MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496/blob/main/notebooks/module-3/dynamic-breakpoints.ipynb)
+
+Learned how to implement **dynamic breakpoints** which are basically internal breakpoints that allow the graph to interrupt itself dynamically. Used **NodeInterrupt()** to achieve this.
+
+*Changes Made:*
+
+* Added another **dynamic breakpoint at step 3** to check if input has any digits
+* Added another node before END
+* Changed dynamic node conditions/flags
+* Modified **dynamic_breakpoints.py** to account for the changes done
+
+![1761515664349](image/README/1761515664349.png)
+
+### Video 5: Time Travel
