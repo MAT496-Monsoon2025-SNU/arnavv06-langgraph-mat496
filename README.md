@@ -275,3 +275,14 @@ Learned how to implement **dynamic breakpoints** which are basically internal br
 ![1761515664349](image/README/1761515664349.png)
 
 ### Video 5: Time Travel
+
+Learned how to get the full state history of the graph using **get_state_history.** Also learned how to **replay, edit** or **fork** through a prior step of the graph rather than re-executing that step by passing a **checkpoint_id** to **graph.stream()**. This is referred to as **time-travel.**
+
+*Changed Made:*
+
+* Changed the arithmetic expressions/operations passed to the graph
+* Changed the arithmetic expressions/operations passed to the graph
+
+![1761583752526](image/README/1761583752526.png)
+
+---
