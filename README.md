@@ -276,6 +276,8 @@ Learned how to implement **dynamic breakpoints** which are basically internal br
 
 ### Video 5: Time Travel
 
+[arnavv06-langgraph-mat496/notebooks/module-3/time-travel.ipynb at main · MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496](https://github.com/MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496/blob/main/notebooks/module-3/time-travel.ipynb)
+
 Learned how to get the full state history of the graph using **get_state_history.** Also learned how to **replay, edit** or **fork** through a prior step of the graph rather than re-executing that step by passing a **checkpoint_id** to **graph.stream()**. This is referred to as **time-travel.**
 
 *Changed Made:*
