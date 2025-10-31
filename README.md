@@ -288,3 +288,17 @@ Learned how to get the full state history of the graph using **get_state_history
 ![1761583752526](image/README/1761583752526.png)
 
 ---
+
+## Module 4: Building Your Assistant
+
+### Video 1: Parallelization
+
+Put together the concepts of parallel nodes and reducers to build a **web search agent** that goes through web and wikepedia at the same time and returns an answer. Also learned that when multiple nodes are run in parallel, LangGraph sets the order by default but we can set a custom order by sorting the state updates.
+
+*Changes Made:*
+
+* Added another node that makes the assistant to search through **youtube transcripts**
+* Added more nodes to run in parallel that fan in and fan out to some other nodes.
+* Added another node to a branch when multiple nodes are run within the same step.
+
+### Video 2: Sub-graphs
