@@ -318,3 +318,20 @@ I learned how to build **sub graphs** within a graph, which can manage different
 ![1761903025655](image/README/1761903025655.png)
 
 ### Video 3: Map-reduce
+
+[arnavv06-langgraph-mat496/notebooks/module-4/map-reduce.ipynb at main · MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496](https://github.com/MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496/blob/main/notebooks/module-4/map-reduce.ipynb)
+
+I learned about **map-reduce** operations. "Map" means to break down a task into smaller sub-tasks, and then process each of these sub-tasks in parallel. "Reduce" means to combine the results of all these parallel sub-tasks.
+
+*Changes Made:*
+
+* Changed the theme of the conversation from jokes to **cosmic facts**, where a best fact is chosen.
+* Modified **map_reduce.py** file to account for the changes made.
+
+![1761908291242](image/README/1761908291242.png)
+
+
+![1761908912862](image/README/1761908912862.png)
+
+
+### Video 4: Research Assistant
