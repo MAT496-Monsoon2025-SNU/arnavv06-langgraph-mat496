@@ -291,7 +291,11 @@ Learned how to get the full state history of the graph using **get_state_history
 
 ## Module 4: Building Your Assistant
 
+[arnavv06-langgraph-mat496/notebooks/module-4 at main · MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496](https://github.com/MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496/tree/main/notebooks/module-4)
+
 ### Video 1: Parallelization
+
+[arnavv06-langgraph-mat496/notebooks/module-4/parallelization.ipynb at main · MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496](https://github.com/MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496/blob/main/notebooks/module-4/parallelization.ipynb)
 
 Put together the concepts of parallel nodes and reducers to build a **web search agent** that goes through web and wikepedia at the same time and returns an answer. Also learned that when multiple nodes are run in parallel, LangGraph sets the order by default but we can set a custom order by sorting the state updates.
 
@@ -302,3 +306,15 @@ Put together the concepts of parallel nodes and reducers to build a **web search
 * Added another node to a branch when multiple nodes are run within the same step.
 
 ### Video 2: Sub-graphs
+
+[arnavv06-langgraph-mat496/notebooks/module-4/sub-graph.ipynb at main · MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496](https://github.com/MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496/blob/main/notebooks/module-4/sub-graph.ipynb)
+
+I learned how to build **sub graphs** within a graph, which can manage different states in our main graph. The information is passed between our main and sub-graphs using **overlapping keys**. Observed in **LangSmith** UI that sub-graphs make traces much more readable.
+
+*Changes Made:*
+
+* Created and added another node **generate_repor**t that waits for the parallel nodes to finish running, and **combines their results** into one before hitting END.
+
+![1761903025655](image/README/1761903025655.png)
+
+### Video 3: Map-reduce
