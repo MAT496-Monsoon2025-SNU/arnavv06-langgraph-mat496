@@ -330,8 +330,32 @@ I learned about **map-reduce** operations. "Map" means to break down a task into
 
 ![1761908291242](image/README/1761908291242.png)
 
-
 ![1761908912862](image/README/1761908912862.png)
 
-
 ### Video 4: Research Assistant
+
+[arnavv06-langgraph-mat496/notebooks/module-4/research-assistant.ipynb at main · MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496](https://github.com/MAT496-Monsoon2025-SNU/arnavv06-langgraph-mat496/blob/main/notebooks/module-4/research-assistant.ipynb)
+
+I learned to build a **Reasearch Assistant** by combining all the concepts covered before. a how to create an analyst based upon a topic where each analyst researches in parallel and then combine the findings into a single report.
+
+*Workflow:*
+
+* We create an analyst that asks questions based upon the topic provided.
+* the questions will be searched across different external sources.
+* results are written to context which will be used to answer question.
+* Above process is repeated until a condition is satisfied
+* A set of messages is saved to state, which is the interview
+* A section is written based upon interview
+
+*Changes Made*:
+
+* Changed the prompt
+* Made the topics to be reseached by Ajay Banga(head of World Bank), and someone who is in modern economics R&D department.
+
+![1762007669121](image/README/1762007669121.png)
+
+![1762007634975](image/README/1762007634975.png)
+
+![1762008054677](image/README/1762008054677.png)
+
+---
